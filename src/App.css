@@ -1,38 +1,161 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* navigation stayling */
+
+.menu-nav{
+  background-color: black;
+  opacity: 0.8;
+  height: 5rem;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content:center ;
+}
+
+.nav-inner{
+  border: 1px solid white;
+  width: 40vw;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content:space-evenly ;
+}
+
+.nav-btn{
+  outline: none;
+  border: none;
+  text-transform: capitalize;
   text-align: center;
+  padding: 0.4rem 1rem;
+  font-size: 1.5rem;
+  transition: 0.5s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-btn:hover{
+  background-color: black;
+  color:white;
+}
+/* food menu style */
+
+
+.display-menu-items{
+  height: 100vh;
+  width: 99vw;
+    /* border: 1px solid rgb(14, 243, 6); */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content:space-evenly ;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-outer{
+  margin: 2rem;
+  height: 48vh;
+  width: 20vw;
+  /* border: 1px solid rgb(14, 243, 6); */
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 4px gray;
+}
+
+.card-head{
+  height: 5vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid rgb(248, 8, 8); */
+  
+}
+
+.serial-no-box{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: gray;
+  /* border: 1px solid gray; */
+  border-radius: 50%;
+  padding: 3px 10px ;
+}
+
+.food-time-box{
+  color: gray;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+
+.card-main{
+  height: 40vh;
+/* border: 1px solid black; */
+display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.img-box{
+  height: 22vh;
+  width: 18vw;
+  
+}
+.food-name-box{
+  
+  font-size: 1.6rem;
+  color: gray;
+  text-align: left;
+   text-transform: capitalize;
+   /* border: 1px solid red; */
+}
+.food-vegOrnon-box{
+  margin: 0;
+  font-size: 1rem;
+  padding: 1px;
+  font-weight: bold;
+  color: gray;
+  text-transform: capitalize;
+}
+
+.discription-box{
+  font-size: 1.1rem;
+  text-transform: lowercase;
+  color: gray;
+text-align: justify;
+word-spacing:-2px;
+/* padding: 5px; */
+/* letter-spacing: 1px; */
+}
+
+.Order-btn{
+  background-color: white;
+  font-size: 1.2rem;
+  color: gray;
+  outline: none;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  font-weight: bold;
+ margin-top: 10px;
+  transition: 1s;
+}
+
+.Order-btn:hover{
+  background-color: gray;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
