@@ -11,7 +11,7 @@ const MenuCard = ({ menuData }) => {
         return(
             <>
             
-            <div className="card-outer" key={value.id}>
+            <div className="card-outer" key={value.keys}>
               <div className="card-head">
                 <span className="serial-no-box">{value.id}</span>
                 <span className="food-time-box">{value.discription}</span>
