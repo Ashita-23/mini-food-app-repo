@@ -1,18 +1,21 @@
 import React from "react";
+// import { FoodData } from "./context";
+// import { useContext } from "react";
+import { foodData } from "./Food_Data";
+const menu = foodData;
 
-const MenuCard = ({ menuData }) => {
+const MenuCard = () => {
+  // console.log(menu.id)
 
-
-   
   return (
  
        <>
-       { menuData.map((value)=>{
+       { menu.map((value)=>{
+      
         return(
             <>
-            
             <div className="card-outer" key={value.keys}>
-              <div className="card-head">
+              <div className="card-head" >
                 <span className="serial-no-box">{value.id}</span>
                 <span className="food-time-box">{value.discription}</span>
               </div>
@@ -43,3 +46,4 @@ const MenuCard = ({ menuData }) => {
 };
 
 export default MenuCard;
+

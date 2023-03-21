@@ -1,6 +1,6 @@
  export const foodData = [
     { 
-      keys: "001A",
+      keys: "0001",
       id: 1,
       altname: "pan Cake",
       vegOrnonveg: "pure Veg ",
@@ -10,7 +10,7 @@
         "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001B",
+    { keys:"0002",
       id: 2,
       altname: "fruit saled",
       vegOrnonveg: "pure Veg ",
@@ -20,7 +20,7 @@
         "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001C",
+    { keys: "0003",
       id: 3,
       altname: "vegetable saled",
       vegOrnonveg: "pure Veg ",
@@ -30,7 +30,7 @@
         "https://images.pexels.com/photos/551997/pexels-photo-551997.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001D",
+    { keys: "0004",
       id: 4,
       altname: "garlic bread",
       vegOrnonveg: "pure Veg ",
@@ -40,7 +40,7 @@
         "https://images.pexels.com/photos/7664397/pexels-photo-7664397.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001E",
+    { keys: "0005",
       id: 5,
       altname: "bolied eggs",
       vegOrnonveg: "Non-Veg ",
@@ -50,7 +50,7 @@
         "https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001F",
+    { keys: "0006",
       id: 6,
       altname: "pasta",
       vegOrnonveg: "pure Veg ",
@@ -60,7 +60,7 @@
         "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001G",
+    { keys: "0007",
       id: 7,
       altname: "Shushee",
       vegOrnonveg: "Non-Veg ",
@@ -69,7 +69,7 @@
       imgs:
         "https://images.pexels.com/photos/3642030/pexels-photo-3642030.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
-    { keys: "001H",
+    { keys : "0072",
       id: 8,
       altname: "Pitzaa",
       vegOrnonveg: "pure Veg ",
@@ -79,7 +79,7 @@
         "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
 
-    { keys: "001I",
+    { keys :" 0073",
       id: 9,
       altname: "Burgger",
       vegOrnonveg: "pure Veg ",
@@ -89,7 +89,7 @@
         "https://images.pexels.com/photos/2657960/pexels-photo-2657960.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001J",
+    { keys: "0010",
       id: 10,
       altname: "egg curry",
       vegOrnonveg: "Non-Veg ",
@@ -99,7 +99,7 @@
         "https://images.pexels.com/photos/4940719/pexels-photo-4940719.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001K",
+    { keys: "0011",
       id: 11,
       altname: "chiken",
       vegOrnonveg: "Non-Veg ",
@@ -109,7 +109,7 @@
         "https://images.pexels.com/photos/6210747/pexels-photo-6210747.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001L",
+    { keys:"0012" ,
       id: 12,
       altname: "crad",
       vegOrnonveg: "Non-Veg ",
@@ -119,7 +119,7 @@
         "https://images.pexels.com/photos/1998920/pexels-photo-1998920.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001M",
+    { keys:"0013",
       id: 13,
       altname: "veg-pasta",
       vegOrnonveg: "Veg ",
@@ -129,7 +129,7 @@
         "https://images.pexels.com/photos/3297363/pexels-photo-3297363.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
   
-    { keys: "001N",
+    { keys: "0014",
       id: 14,
       altname: "chesszy pitzaa",
       vegOrnonveg: "Veg ",
@@ -139,7 +139,7 @@
         "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
     
-    { keys: "001O",
+    { keys: "0015",
       id: 15,
       altname: "prons",
       vegOrnonveg: "Non-Veg ",
