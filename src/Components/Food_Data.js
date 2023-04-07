@@ -55,7 +55,7 @@
       altname: "pasta",
       vegOrnonveg: "pure Veg ",
       foodnames: "pasta",
-      discription: "lunch",
+      discription: "Lunch",
       imgs:
         "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
