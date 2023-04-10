@@ -1,33 +1,38 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-
 /* navigation stayling */
 
-.menu-nav{
+.menu-nav {
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.9;
   height: 5rem;
+  width: 99vw;
+  
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content:center ;
+  justify-content: center;
+  /* border: 1px solid red; */
 }
 
-.nav-inner{
+.nav-inner {
   border: 1px solid white;
   width: 40vw;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content:space-evenly ;
+  justify-content: space-evenly;
+   /* border: 1px solid red; */
 }
 
-.nav-btn{
+
+
+.nav-btn {
   outline: none;
   border: none;
   text-transform: capitalize;
@@ -35,128 +40,122 @@
   padding: 0.4rem 1rem;
   font-size: 1.5rem;
   transition: 0.5s;
+  margin: 0rem 1rem;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
   background-color: black;
-  color:white;
-}
-/* food menu style */
-
-
-.display-menu-items{
-  height:auto;
-  width: 99vw;
-    /* border: 1px solid rgb(14, 243, 6); */
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    justify-content:space-evenly ;
-
-}
-
-.card-outer{
-  margin: 2rem;
-  height: 48vh;
-  width: 20vw;
-  /* border: 1px solid rgb(14, 243, 6); */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 1px 1px 4px gray;
-}
-
-.card-head{
-  height: 5vh;
-  width: 20vw;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-  /* border: 1px solid rgb(248, 8, 8); */
-  
-}
-
-.serial-no-box{
-  margin-left: 1rem;
-  font-size: 1.2rem;
-  color: gray;
-  /* border: 1px solid gray; */
-  border-radius: 50%;
-  padding: 3px 10px ;
-}
-
-.food-time-box{
-  color: gray;
-  font-size: 1.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  margin-right: 1rem;
-}
-
-
-.card-main{
-  height: 40vh;
-/* border: 1px solid black; */
-display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  /* align-items: center; */
-  justify-content: space-evenly;
-  padding: 1rem;
-}
-
-.img-box{
-  height: 22vh;
-  width: 18vw;
-  object-fit: fill;
-  
-}
-.food-name-box{
-  
-  font-size: 1.6rem;
-  color: gray;
-  text-align: left;
-   text-transform: capitalize;
-   /* border: 1px solid red; */
-}
-.food-vegOrnon-box{
-  margin: 0;
-  font-size: 1rem;
-  padding: 1px;
-  font-weight: bold;
-  color: gray;
-  text-transform: capitalize;
-}
-
-.discription-box{
-  font-size: 1.1rem;
-  text-transform: lowercase;
-  color: gray;
-text-align: justify;
-word-spacing:-2px;
-/* padding: 5px; */
-/* letter-spacing: 1px; */
-}
-
-.Order-btn{
-  background-color: white;
-  font-size: 1.2rem;
-  color: gray;
-  outline: none;
-  border: 1px solid gray;
-  padding: 0.5rem;
-  font-weight: bold;
- margin-top: 10px;
-  transition: 1s;
-}
-
-.Order-btn:hover{
-  background-color: gray;
   color: white;
 }
 
+/* food menu nav media query */
+
+@media only screen and  (min-width: 360px) {
+  .menu-nav {
+
+  width: 100vw;
+
+  }
+  .nav-inner {
+   
+    width:auto; 
+  }
+
+  .nav-btn {
+    margin: 0rem 0.2rem;
+    padding: 0.1rem 0.2rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* _________________________________ */
+@media only screen and  (min-width: 375px) {
+  .menu-nav {
+
+   width: 100vw;
+    
+  }
+  .nav-inner {
+    /* display: none; */
+    /* border: 1px solid red; */
+    width: auto;
+  }
+
+  .nav-btn {
+  
+    margin: 0rem 0.2rem;
+    padding: 0.1rem 0.4rem;
+    font-size: 1.1rem; 
+  }
+}
+
+
+
+/* __________________________________ */
+@media(min-width: 640px) {
+  .nav-inner {
+     width: auto; 
+  }
+
+  .nav-btn {
+     margin: 0rem 0.4rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.4rem; 
+  }
+}
+/* _____________________________ */
+@media  (min-width: 768px)  {
+
+
+}
+/* __________________________________ */
+
+@media only screen and  (min-width: 1024px) {
+   .menu-nav {
+   
+  }
+
+  .nav-inner {
+     /* border: 1px solid rgb(250, 25, 25);   */
+   width: auto; 
+  }
+
+  .nav-btn {
+     margin: 0rem 1.5rem;
+    padding: 0.2rem 0.4rem;
+
+    font-size: 1.8rem; 
+  } 
+}
+
+/* __________________________________ */
+
+@media only screen and  (min-width: 1280px) {
+  .menu-nav {
+   
+  }
+  .nav-inner {
+    width: auto;
+  }
+
+  .nav-btn {
+     margin: 0rem 1.5rem;
+    padding: 0.4rem 1rem;
+    font-size: 1.5rem; 
+  }
+}
+/* __________________________________ */
+
+@media only screen and   (min-width: 1536px) {
+  .menu-nav {
+   width: 99vw;
+  }
+  .nav-inner {
+     width: auto; 
+  }
+
+  .nav-btn {
+     padding: 0.4rem 1rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MenuCard from "./Menu-Inpu";
+import MenuCards from "./MenuCards";
 import { foodData } from "./Food_Data";
 
 const Navigation = () => {
@@ -38,7 +38,7 @@ const Navigation = () => {
       </nav>
       <div className="display-menu-items">
         {itemList.map((values) => {
-            return(  <><MenuCard  key={values.keys} foodDatas={values} /></>
+            return(  <><MenuCards  key={values.keys} foodDatas={values} /></>
         )})}
       </div>
     </>

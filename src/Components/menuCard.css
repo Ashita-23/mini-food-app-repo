@@ -1,0 +1,116 @@
+.display-menu-items {
+  height: auto;
+  width:99vw;
+  /* border: 1px solid rgb(14, 243, 6); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.card-outer {
+  margin: 2rem;
+  height: 48vh;
+  width: 20vw;
+  /* border: 1px solid rgb(14, 243, 6); */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  /* box-shadow: 1px 1px 4px gray; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+
+.card-head {
+  height: 5vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid rgb(83, 82, 82); */
+  /* border: 1px solid rgb(248, 8, 8); */
+}
+
+.serial-no-box {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: gray;
+  /* border: 1px solid gray; */
+  border-radius: 50%;
+  padding: 3px 10px;
+}
+
+.food-time-box {
+  color: gray;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.card-main {
+  height: 40vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.img-box {
+  height: 22vh;
+  width: 18vw;
+}
+.food-name-box {
+  font-size: 1.6rem;
+  color: gray;
+  text-align: left;
+  text-transform: capitalize;
+  /* border: 1px solid red; */
+  margin-left: 5px;
+  /* padding: 0px 14px; */
+}
+.food-vegOrnon-box {
+  margin: 0;
+  font-size: 1rem;
+  padding: 1px;
+  font-weight: bold;
+  color: gray;
+  text-transform: capitalize;
+}
+
+.discription-box {
+  font-size: 1.1rem;
+  text-transform: lowercase;
+  color: gray;
+  text-align: justify;
+  word-spacing: -2px;
+  padding: 0px 8px;
+}
+
+.Order-btn {
+  background-color: white;
+  font-size: 1.2rem;
+  color: gray;
+  outline: none;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: 1s;
+}
+
+.Order-btn:hover {
+  background-color: gray;
+  color: white;
+}
+

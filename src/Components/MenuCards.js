@@ -1,6 +1,7 @@
 import React from "react";
-// import { FoodData } from "./context";
-// import { useContext } from "react";
+import './menuCard.css'
+import './menuCards@mediaQ.css'
+
 
 // const menu = foodData;
 
@@ -22,8 +23,8 @@ const MenuCard = (props) => {
                   alt={altname}
                   className="img-box"
                 />
-                <h2 className="food-name-box">{foodnames}</h2>
-                <p className="food-vegOrnon-box">{vegOrnonveg}</p>
+                <h2 className="food-name-box">{foodnames}<span  className="food-vegOrnon-box">( {vegOrnonveg} )</span></h2>
+                
                 <p className="discription-box">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa
                   odit vel aliquid repellendus voluptate illo harum eaque! Minima

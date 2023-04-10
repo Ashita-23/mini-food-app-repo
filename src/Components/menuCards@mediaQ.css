@@ -1,0 +1,449 @@
+/* meu card media query */
+
+@media only screen and (min-width: 360px) {
+    .display-menu-items {
+      width: 100vw;
+      /* border: 1px solid rgb(14, 243, 6); */
+      flex-direction: column;
+  
+      align-items: center;
+      box-sizing: border-box;
+    }
+  
+    .card-outer {
+      height: 60vh;
+      width: 80vw;
+      /* border: 1px solid red; */
+      box-sizing: border-box;
+      justify-content: space-evenly;
+      /* border: 1px solid red; */
+  
+    }
+  
+    .card-head {
+      width: 75vw;
+  
+      margin: 5px  0px;
+      /* border: 1px solid red; */
+  
+    }
+  
+    .card-main {
+      height: 48vh;
+      /* border: 1px solid red; */
+    }
+  
+    .img-box {
+      height: 25vh;
+      width: 100%;
+    }
+    .food-name-box {
+      padding: 0.2rem;
+      font-size: 1.1rem;
+    }
+    .food-vegOrnon-box {
+      font-size: 0.9rem;
+  
+      font-weight: 400;
+    }
+  
+    .discription-box {
+      font-weight: 400;
+      font-size: 1rem;
+      word-spacing: 0px;
+    }
+    .Order-btn {
+     margin-bottom: 10px;
+    }
+  }
+  
+
+@media only screen and (min-width: 375px) {
+  .display-menu-items {
+    width: 100vw;
+    /* border: 1px solid rgb(14, 243, 6); */
+    flex-direction: column;
+
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .card-outer {
+    height: 64vh;
+    width: 80vw;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+
+  }
+
+  .card-head {
+    width: 75vw;
+
+    margin: 5px  0px;
+    /* border: 1px solid red; */
+
+  }
+
+  .card-main {
+    height: 52vh;
+    /* border: 1px solid red; */
+  }
+
+  .img-box {
+    height: 25vh;
+    width: 100%;
+  }
+  .food-name-box {
+    padding: 0.2rem;
+    font-size: 1.1rem;
+  }
+  .food-vegOrnon-box {
+    font-size: 0.9rem;
+
+    font-weight: 400;
+  }
+
+  .discription-box {
+    font-weight: 400;
+    font-size: 1rem;
+    word-spacing: 0px;
+  }
+  .Order-btn {
+   margin-bottom: 10px;
+  }
+}
+
+
+/* ______________________________________ */
+@media only screen and (min-width: 640px) {
+    .display-menu-items {
+        width: 100vw;
+        /* border: 1px solid rgb(14, 243, 6); */
+        flex-direction: column;
+    
+        align-items: center;
+        box-sizing: border-box;
+      }
+    
+      .card-outer {
+        height:56vh;
+        width: 80vw;
+        /* border: 1px solid red; */
+        box-sizing: border-box;
+        justify-content: space-evenly;
+      }
+    
+      .card-head {
+        width: 75vw;
+        margin-top: 10px;
+        /* border: 1px solid red; */
+      }
+    
+      .card-main {
+        height: 48vh;
+        /* border: 1px solid red; */
+      }
+    
+      .img-box {
+        height: 25vh;
+        width: 100%;
+      }
+      .food-name-box {
+        padding: 0.2rem;
+        font-size: 1.3rem;
+      }
+      .food-vegOrnon-box {
+        font-size: 0.9rem;
+    
+        font-weight: 400;
+      }
+    
+      .discription-box {
+        font-weight: 400;
+        font-size: 1.2rem;
+        word-spacing: 0px;
+      }
+    
+}
+
+
+/* ______________________________________ */
+@media only screen and (min-width: 768px) {
+    .display-menu-items {
+        
+    /* border: 1px solid red; */
+        flex-direction: row;
+      }
+    
+      .card-outer {
+        height: 48vh;
+        width: 60vw;
+        /* border: 1px solid red; */
+      }
+    
+      .card-head {
+        width: 54vw;
+        /* border: 1px solid rgb(243, 12, 12); */
+      }
+      .serial-no-box {
+        font-size: 1.3rem;
+      }
+    
+      .food-time-box {
+        font-size: 1.4rem;
+      }
+      .card-main {
+        height: 42vh;
+        padding: 0rem 0.5rem;
+        /* border: 1px solid rgb(0, 0, 0); */
+      }
+    
+      .img-box {
+        height: 20vh;
+        width: 57vw;
+        margin-left: 5px;
+      }
+      .food-name-box {
+        font-size: 1.4rem;
+      }
+      .food-vegOrnon-box {
+        font-size: 1.3rem;
+    
+        font-weight: bold;
+      }
+    
+      .discription-box {
+        font-size: 1.2rem;
+    
+        font-weight: 400;
+        word-spacing: -1px;
+      }
+    
+      .Order-btn {
+        font-size: 1.6rem;
+      }
+    
+      .Order-btn {
+        margin-bottom: 10px;
+      }
+}
+
+
+/* ______________________________________ */
+@media only screen and (min-width: 1024px) {
+  .display-menu-items {
+    width: 100vw;
+
+    flex-direction: row;
+  }
+
+  .card-outer {
+    height: 50vh;
+    width: 42vw;
+  }
+
+  .card-head {
+    width: 38vw;
+  }
+  .serial-no-box {
+    font-size: 1.4rem;
+  }
+
+  .food-time-box {
+    font-size: 1.5rem;
+  }
+  .card-main {
+    height: 42vh;
+    padding: 0rem 0.5rem;
+  }
+
+  .img-box {
+    height: 22vh;
+    width: 39vw;
+    margin-left: 5px;
+  }
+  .food-name-box {
+    font-size: 1.6rem;
+  }
+  .food-vegOrnon-box {
+    font-size: 1.3rem;
+
+    font-weight: bold;
+  }
+
+  .discription-box {
+    font-size: 1.4rem;
+
+    font-weight: 400;
+    word-spacing: -1px;
+  }
+
+  .Order-btn {
+    font-size: 1.6rem;
+  }
+
+  .Order-btn {
+    margin-bottom: 10px;
+  }
+}
+
+/* ______________________________________ */
+@media only screen and (min-width: 1280px) {
+  .display-menu-items {
+    width: 100vw;
+
+    flex-direction: row;
+  }
+
+  .card-outer {
+    height: 56vh;
+    width: 26vw;
+  }
+
+  .card-head {
+    width: 24vw;
+  }
+
+  .card-main {
+    height: 48vh;
+
+    padding: 0rem 0.5rem;
+  }
+
+  .img-box {
+    height: 22vh;
+    width: 24vw;
+    margin-left: 5px;
+  }
+  .food-name-box {
+    font-size: 1.6rem;
+  }
+  .food-vegOrnon-box {
+    font-size: 1rem;
+
+    font-weight: bold;
+  }
+
+  .discription-box {
+    font-size: 1rem;
+
+    font-weight: 400;
+    word-spacing: -1px;
+  }
+
+  .Order-btn {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* ______________________________________ */
+@media only screen and (min-width: 1536px)  {
+  .display-menu-items {
+    width: 99vw;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card-outer {
+    /* border: 1px solid red; */
+    height: 48vh;
+    width: 20vw;
+  }
+
+  .card-head {
+    width: 18vw;
+    /* border: 1px solid red; */
+
+  }
+
+  .card-main {
+    /* border: 1px solid red; */
+
+    height: 40vh;
+  }
+
+  .img-box {
+    height: 22vh;
+    width: 18vw;
+    margin-left: 10px;
+  }
+  .food-name-box {
+    font-size: 1.6rem;
+  }
+  .food-vegOrnon-box {
+    font-size: 1rem;
+
+    font-weight: bold;
+  }
+
+  .discription-box {
+    font-size: 1.2rem;
+
+    font-weight: 400;
+    word-spacing: -1px;
+  }
+  .Order-btn {
+
+    font-size: 1.2rem;
+
+  }
+}
+
+/* ______________________________________ */
+@media only screen and (min-width: 1629px)  {
+  .display-menu-items {
+    width: 99vw;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card-outer {
+    /* border: 1px solid red; */
+    height: 52vh;
+    width: 20vw;
+  }
+
+  .card-head {
+    /* border: 1px solid red; */
+    
+
+    width: 18vw;
+  }
+
+  .card-main {
+    height: 45vh;
+    /* border: 1px solid red; */
+
+  }
+
+  .img-box {
+    height: 21vh;
+    width: 18vw;
+    margin-left: 10px;
+  }
+  .food-name-box {
+    font-size: 1.4rem;
+  }
+  .food-vegOrnon-box {
+    font-size: 1rem;
+
+    font-weight: bold;
+  }
+
+  .discription-box {
+    font-size: 1rem;
+
+    font-weight: 400;
+    word-spacing: -1px;
+  }
+  .Order-btn {
+
+    font-size: 1.1rem;
+
+  }
+}
